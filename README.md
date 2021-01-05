@@ -21,3 +21,8 @@ Total of 24 academic hours.
 ## Video lectures
 
 https://www.youtube.com/user/ywarezk
+
+## Recordings
+
+- https://johnbryce.zoom.us/rec/share/TZtL4khn8CSwSla4ZNEKyrba4QSVFR6ZmDgmwFCgKe4Fjqr1K13D-rXJc3KxjScy.zKwEcCZ0iOU8BHOp
+
