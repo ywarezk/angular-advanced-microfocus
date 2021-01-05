@@ -2,6 +2,9 @@
 
 In this lesson we will improve our tools for dealing with async code by diving thoroughly to RXJS.
 
+
+
+
 ## Lesson Plan
 
 - about async code
@@ -74,3 +77,6 @@ This is the list of popular operators you should familiarize yourself with:
 - withLatestFrom
 - merge
 
+## Video link
+
+https://www.youtube.com/watch?v=rLPW1VowY1E&t=3545s

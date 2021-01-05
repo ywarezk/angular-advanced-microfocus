@@ -2,6 +2,28 @@
 
 In this lesson we will go over advanced topics regarding @angular/cli.  
 
+## angular app
+
+- angular website/web application
+
+## library
+
+- class/function/objects which you can reuse in multiple apps
+
+## Workspace
+
+- contains multiple apps, multiple libraries
+
+## @angular/cli
+
+is a tool for create an angular workspace
+
+## Create a workspace
+
+```
+npx @angular/cli new workspace-name --create-application=false
+```
+
 ## Lesson Plan
 
 - workspace

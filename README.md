@@ -18,4 +18,6 @@ Total of 24 academic hours.
 - HTML
 - CSS
 
-##
+## Video lectures
+
+https://www.youtube.com/user/ywarezk
