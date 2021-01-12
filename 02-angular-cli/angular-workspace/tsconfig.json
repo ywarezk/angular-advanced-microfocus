@@ -19,6 +19,9 @@
       "@microfocus/auth": [
         "dist/microfocus/auth/microfocus-auth",
         "dist/microfocus/auth"
+      ],
+      "@microfocus/auth@dev": [
+        "projects/microfocus/auth/src/public-api.ts"
       ]
     }
   }
