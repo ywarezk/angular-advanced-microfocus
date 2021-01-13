@@ -6,6 +6,7 @@ import { Component, OnInit, ComponentRef, AfterViewInit, NgZone, ChangeDetection
 // If you dont' add the OnPush ChangeDetectorRef is automatic
 // OnPush - ChangeDetectorRef -> manual
 // you need to manually tell the ChangeDetectorRef that it's dirty
+// how to tell the ChangeDetectorRef that it's dirty, the easy way
 
 @Component({
   selector: 'app-root',
