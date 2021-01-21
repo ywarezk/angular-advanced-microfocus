@@ -13,21 +13,23 @@ import { Component, OnInit, ComponentRef, AfterViewInit, NgZone, ChangeDetection
   template: `
     <h1>AppComponent {{ changeDetectionLog() }} {{count}}</h1>
 
-    <app-child></app-child>
+    <app-child [message]="title"></app-child>
   `,
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent implements OnInit {
   count = 0;
+  title = 'hello from parent';
 
   constructor(private _zone: NgZone, private _cd: ChangeDetectorRef) {}
 
   ngOnInit() {
-    setTimeout(() => {
+    // setTimeout(() => {
 
-      this.count++;
-      this._cd.detectChanges();
-    }, 2000)
+    //   this.count++;
+    //   this.title = 'something changed';
+    //   this._cd.detectChanges();
+    // }, 2000)
   }
 
 

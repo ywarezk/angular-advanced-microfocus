@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-grand',
@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
       GrandComponent {{ changeDetectionLog() }}
     </h1>
   `,
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class GrandComponent implements OnInit {
 
@@ -15,11 +16,11 @@ export class GrandComponent implements OnInit {
   // constructor(private _http: HttpClient) { }
 
   ngOnInit() {
-    setTimeout(() => {
-      console.log('setTimeout is running in grand');
-      // this.count++;
+    // setTimeout(() => {
+    //   console.log('setTimeout is running in grand');
+    //   // this.count++;
 
-    }, 2000);
+    // }, 2000);
   }
 
   changeDetectionLog() {
