@@ -1,5 +1,7 @@
 // learning redux
 
+// S0 + [ a0, a1, a2, a3  ] => currentState
+
 function reducer(currentState, action) {
 	if (action.type === 'deposit money') {
 		return {
@@ -37,4 +39,13 @@ document.getElementById('deposit-button').addEventListener('click', () => {
 	}
 	
 	store.dispatch(action);
-})
+});
+
+
+/*
+
+1. initial data - s0
+2. reducer currentState, action => newState
+3. dispatch(newAction)
+
+*/
