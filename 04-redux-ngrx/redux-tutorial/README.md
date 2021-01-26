@@ -1,27 +1,72 @@
-# ReduxTutorial
+# @ngrx/*
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.0.
+a set of libraries that helps
+- Manage your data using Redux
+- Additional libraries that helps you solve common problem with the data
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## @ngrx/store
 
-## Code scaffolding
+Givens you managing your data using Redux
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## @ngrx/store-devtools
 
-## Build
+Debugging Redux
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+examine our store
+examine the data in the store
+examine the actions that change the data
 
-## Running unit tests
+Install this extension
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Advantage 1 using Redux
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+dev tools
+
+## State
+
+```
+{
+  bank: {
+    amount: 100,  
+  },
+  user: {
+    firstName: 'Yariv',
+    lastName: 'Katz'  
+  }         
+  
+  
+}
+```
+
+## Contract
+
+## Best practice
+
+your data should have a clear contract
+
+## Advantage 2 - performance
+
+all our components can easily be transformed to OnPush
+
+## Advantage 3 - Predictability
+
+if the data change is well defined
+
+action = {type, payload}
+
+store.dispatch(action)
+
+reducer
+
+state
+
+## Advantage 4 - We work in similar way regarding data change in our app
+
+
+
+ 

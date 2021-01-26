@@ -49,3 +49,28 @@ document.getElementById('deposit-button').addEventListener('click', () => {
 3. dispatch(newAction)
 
 */
+
+
+/**
+
+Store        action
+state1  ---------------->  Reducer ----------> state2
+
+
+ */
+ 
+ 
+ /**
+ 
+ -----A1-------A2-------A3---------------------A-n----->
+ 
+    Reducer
+ 
+ 
+ S0---S1-------S2-------S3---------------------S-n------------>
+ 
+ 
+  */
+ 
+ // same implementation can be done using observables and RXJS
+ // ngrx - implemenation of redux using observables

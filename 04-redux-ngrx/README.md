@@ -55,3 +55,8 @@ Service n 			component-m
 - actions
 - reducers
 
+## EX.
+
+Follow the ex and solution described in this video:
+
+- https://www.youtube.com/watch?v=G6vd7gTNhQs&t=1975s
