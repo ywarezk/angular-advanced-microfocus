@@ -33,3 +33,5 @@ The lessons are video recorded, and you can view the recordings in these links:
 3. https://johnbryce.zoom.us/rec/share/MuZ69IuSYmUC8gZziOy_YqrX__9nZFrrPEOcz-El8c-NxfD11ZGNOwVcqyV70eis.7X--hfRjRiqqZ8Zl
 
 4. https://johnbryce.zoom.us/rec/share/ub2khCZQkYZiSI3xS3ZmFZQ9S9a8yN0REQULzCRYVHvVxIeuOh0OxfdkFPVler0g.8avPPmOkJ5ERsYk5
+
+5. https://johnbryce.zoom.us/rec/share/SunCB5xYDAjGEsPoSCgJSrV-4tl2UGQy0wfKFNaZeqw5-6KE3s8dKg6RxnYVwbtE.VKzPA5vd8loqK5kz
