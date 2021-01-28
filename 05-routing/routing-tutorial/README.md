@@ -1,27 +1,30 @@
-# RoutingTutorial
+## Routing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+`/`
+`/about`
+`/settings/user`
+`/settings/account`
+`/settings/dashboard`
+`/blog/angular/routing`,
+`/blog/react/introduction`
+`/admin/user`
+`/admin/accounts`
+`/todo/list`
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+main app: js -> 4MB
+blog: js -> 3MB
 
-## Code scaffolding
+7MB
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## categories of passing information
 
-## Build
+- memory - ngrx, angular services
+- persistent api's of the browser: cookies, localStorage, sessionStorage, database
+- storing in a server - REST, Graphql
+- using the url - pass from pageA -> pageB, path params, query params ?key=value&anotherKey=anotherValue , Fragment `#hello`
+  - query params - sorting, filtering, search, redirect, tag
+  - path params - Resources / Entities
+  - Fragment - restore the user to a location of the page, tabs plugin
+  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

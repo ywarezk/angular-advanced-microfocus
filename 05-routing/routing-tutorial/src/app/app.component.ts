@@ -15,11 +15,22 @@ import { Component } from '@angular/core';
         <li>
           <a routerLink="/about">about page</a>
         </li>
+        <li>
+          <a routerLink="/blog/angular/routing" [queryParams]="{foo: 'bar'}" >Angular routing article</a>
+        </li>
+
+        <li>
+          <a routerLink="/admin"  >Admin</a>
+        </li>
       </ul>
     </nav>
 
-
+    <!-- instruct Router where to place the component -->
     <router-outlet></router-outlet>
+
+    <footer>
+      Some footer
+    </footer>
   `
 })
 export class AppComponent {
